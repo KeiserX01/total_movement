@@ -1,9 +1,14 @@
+build.gradle
+gradlew.bat
+settings.gradle
+gradlew
 .gradle/
 build/
-
+run/
 *.class
 *.log
-
+.DS_Store
 .idea/
 *.iml
 .vscode/
+*.xml

@@ -18,7 +18,7 @@ final class MovementTracker {
      * Ignore large position discontinuities that did not pass through the
      * teleport hooks, such as ender pearl or third-party teleport updates.
      */
-    private static final double MAX_TRACKED_BLOCKS_PER_TICK = 4.0D;
+    private static final double MAX_TRACKED_BLOCKS_PER_TICK = 16.0D;
 
     private final ScoreboardCriterion criterion;
     private final Map<UUID, Sample> samples = new HashMap<>();
