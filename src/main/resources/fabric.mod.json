@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "albion_total_movement",
+  "version": "${version}",
+  "name": "Albion Total Movement",
+  "description": "Adds a lightweight vanilla scoreboard criterion for total player movement distance.",
+  "authors": [
+    "Albion Dungeons"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.albiondungeons.totalmovement.AlbionTotalMovementMod"
+    ]
+  },
+  "mixins": [
+    "albion_total_movement.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}

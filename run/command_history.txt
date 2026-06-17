@@ -1,0 +1,18 @@
+/scoreboard objectives add PlayerMovement total_movement
+/scoreboard objectives setdisplay sidebar PlayerMovement
+/scoreboard players set Player242 PlayerMovement 0
+/tp ^8 ^ ^
+/tp ^ ^ ^8
+/tp ^ ^ ^9
+/fill 24 -61 21
+/fill 24 -61 21 -8 -61 21 minecraft:blue_ice
+/fill 24 -61 21 -8 -61 22 minecraft:blue_ice
+/fill 24 -61 24
+/fill 24 -61 24 -8 -61 -8 minecraft:blue_ice
+/fill 24 -61 24 -8 -61 -8 minecraft:stone
+/fill 2 -61 1
+/fill 2 -61 1 0 -61 3 stone
+/fill 2 -61 1 0 200 3 stone hollow
+/fill 1 -61 2
+/fill 1 -61 2 1 200 2 minecraft:water
+/tp ~ 200 ~
