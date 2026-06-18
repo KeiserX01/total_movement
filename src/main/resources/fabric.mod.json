@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "id": "albion_total_movement",
+  "id": "keiserx01_total_movement",
   "version": "${version}",
-  "name": "Albion Total Movement",
+  "name": "KeiserX01 Tool(Total Movement)",
   "description": "Adds a lightweight vanilla scoreboard criterion for total player movement distance.",
   "authors": [
-    "Albion Dungeons"
+    "KeiserX01"
   ],
   "contact": {},
   "license": "MIT",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.albiondungeons.totalmovement.AlbionTotalMovementMod"
+      "com.keiserx01.totalmovement.TotalMovementMod"
     ]
   },
   "mixins": [
-    "albion_total_movement.mixins.json"
+    "total_movement.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.16.0",

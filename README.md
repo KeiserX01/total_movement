@@ -1,4 +1,4 @@
-# Albion Total Movement
+# Total Movement
 
 Fabric server-side helper mod for Minecraft 1.21.1.
 
@@ -25,12 +25,12 @@ The score stores total distance in tenths of a block:
 - Keeps a fractional accumulator per online player so small movements are not lost between score updates.
 - Calls `scoreboard.forEachScore(criterion, player, action)`, using Minecraft's internal objective-by-criterion index instead of scanning all objectives manually.
 - Uses tiny mixins for the server tick and for resetting samples after teleports. A pure tick delta cannot reliably distinguish a short `/tp` from real movement.
-- Ignores movement updates above 8 blocks per tick so teleports, ender pearls, portals, or third-party position jumps do not add score.
+- Ignores movement updates above 4 blocks per tick so teleports, ender pearls, portals, or third-party position jumps do not add score.
 
 ## Installation
 
 1. Install Fabric Loader on the Minecraft 1.21.1 dedicated server.
-2. Copy `build/libs/albion-total-movement-1.0.0.jar` into the server `mods/` folder.
+2. Copy `build/libs/total-movement-1.0.0.jar` into the server `mods/` folder.
 3. Start the server.
 4. Create the objective:
 

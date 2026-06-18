@@ -14,7 +14,7 @@ loom {
     splitEnvironmentSourceSets()
 
     mods {
-        "albion_total_movement" {
+        "total_movement" {
             sourceSet sourceSets.main
         }
     }

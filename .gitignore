@@ -1,5 +1,7 @@
 .gradle/
 build/
+gradlew
+*.bat
 
 *.class
 *.log
@@ -7,3 +9,8 @@ build/
 .idea/
 *.iml
 .vscode/
+
+*.sh
+*.xml
+.gist-id
+run/
